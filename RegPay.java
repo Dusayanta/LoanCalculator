@@ -44,10 +44,10 @@ public class RegPay extends JApplet implements ActionListener
 		JLabel rateLab = new JLabel("Interest rate");
 		JLabel paymentLab = new JLabel("Monthly payments");
 
-		amountText=new JTextField(10);
-		periodText=new JTextField(10);
-		paymentText=new JTextField(10);
-		rateText=new JTextField(10);
+		amountText =new JTextField(10);
+		periodText =new JTextField(10);
+		paymentText =new JTextField(10);
+		rateText =new JTextField(10);
 		paymentText.setEditable(false);
 
 		doIt = new JButton("Compute");
