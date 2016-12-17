@@ -46,8 +46,8 @@ public class RegPay extends JApplet implements ActionListener
 
 		amountText =new JTextField(10);
 		periodText =new JTextField(10);
-		paymentText =new JTextField(10);
-		rateText =new JTextField(10);
+		paymentText = new JTextField(10);
+		rateText = new JTextField(10);
 		paymentText.setEditable(false);
 
 		doIt = new JButton("Compute");
